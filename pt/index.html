@@ -3,7 +3,7 @@
 <head>
 <script>
 var path = document.location.pathname;
-var id = path.substr(path.indexOf('/pt/') + 4);
+var id = path.substr(path.indexOf('/pt/?') + 5);
 
 window.location = 'https://www.pivotaltracker.com/story/show/'+id;
 </script>
