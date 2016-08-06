@@ -1,1 +1,114 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+  <style type="text/css">
+    body {
+      background: #799CB3;
+      color: white;
+      text-align: center;
+      font-family: "open-sans", sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      width: 300px;
+      margin: 10% auto 0;
+    }
+    .center {
+      text-align: center;
+    }
+    h1, h3, h4, h5, h6 {
+      letter-spacing: 2.5px;
+    }
+    h1 {
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAAA9CAYAAAAga8ziAAAACXBIWXMAAAsSAAALEgHS3X78AAAE8ElEQVR42u2dQXKbMBSGXzo5QLhBh14gM3TfLPARnG27Mtvu8LLdkV235gjxEcwiF2AmF3COUHoDdRGREAc96Qkp2Mn/zTCewfD0eNKP9GSwzpRSBACIxyeEAACIDACIDAAAkQEAkQEAkQEAIDIAjpFzIrokoj8z+vCTiO4djvuht5Dc6/IBiCqyCyL6NqMPF47HfZ7ZzyURZYMt0fsbInrQn1uhzZKIKsN3ZzP51JMN7Kd66213A9vdhGsco/e9JaJ6YgwlcPFOdSzykVjYfVVKXal5uVJKkcP2K0LZdw7l5kqpvaO9vT6eHLeSsTWXT5lSaudo+6++Bt9rdPF9GdG+Ld6JUmojiMWor8jJeFZEtBvcuWyk+vjVifqU62NzR9uJ7kVuI11rqm2vZqj7RFiXiclXiIwfLm08z90IGuqx+JTpRpJ4DqWriHURK54ctzomk32FyMxUARrGKflUeQpsmBvlkYX2lvl3HsrXc2jJeFfngtzpZDdh7napttGcgE8hbPdDWcn1jvmRWCYfthPsS0TG0eqY5C5xhsjkQa6JqDjIY0zDrJAii+lTLrCd6Vwl8WichyyEs4WZUGQLz1zMdB0PRHStRTbMd1ODrw2Gi3yvYQpyMXK3XAvtHJtPucB2y9i2CdaFG11u7HiSRxnrgcD6+KxtcYDIzN39GFvh/uxEfAplm7MlYRvRtm+cTcPPxhZniEwW6E64PzkRn0LZDnXN3YwiS4R+WeMsFdlvevxlPOR251j2L4FNAI4GTHwA8DoP5fK11pCrQWQATByqEj3OOo6J7IYziJwMgJdwP7msfHJOiCwcx5gfImf1wzS72T+rCZEBELk3W0FkAEyjJn4CZCMRGiY+wHtmZ/mee3qlsJy/GQgSIgMflimPePWPplUWoaVkmcLHcBEAMzcOPVVJltdwIDIAeAoHoa04oUFkAEQWGkQGQFihlRAZ+EjYHiRfeAhtbTmmooPXiSAyAGTc0OsXWceE9gSm8MNRMpUCn94XNfGPWOV66FhDZGGpjrBBVxBZ1B6t/5dlk9BqDBcBmEZB5ldjlhguAjB9iN3p3qpkerMGIgNg2hB7y4gs8enJPhPRFeoBgCda5rvUR2Tf9QYAcAQTH+M8cN2/YL9t7a5EUH5Mn0LZdrlmFxJhvYSkCx0LiExWmUvh/tZSzjKAyEL4FMp2KCEsZxRZGzoWEJks0OlIYpwxyXLL3P36d5Fcz4vpU8PY3ghsc7ZcKYVxeau6r+j1+2m2WLQ+OdlHgZsxKunx13yXVU5aQ2XkHhUd2idXYazo+a/QbLalS+fuRhpt4jnJ4GKfYzGIRWm4Me7IfYWb56V+j2A52znhlrPdTbS9P1h+1ue8mD6Ftq0My+aGWm52/4bL2e5DxgLDRTNTHz0qPM9bz+TTeuKkRU3hlokKGc85ytoOYwGR8blFMaGSGs+Gup3Jp5Ye197qPBtVEbnRNydS9+3huRCZvdEvBLNa/SJxtbCcTvckxcw+Ndp2I/T7OlL8feM5R933o4GvhzcqTHy4NbwvOvnPBlsy+P5Bf26ZxtgdJPX9ee2LJPntfOLuxAt6fsI807N96cB2N7DdRYh3H5f6BOq+G/g6GoszpdQFEV1+UAH9I6J73EdATM6UUogCABFBTgYARAYARAYAgMgAgMgAgMgAABAZABAZABAZACA4/wGiznmuXHMcZwAAAABJRU5ErkJggg==');
+      width: 217px;
+      height: 61px;
+      margin: 0 auto 1em;
+      text-indent: -999999px;
+    }
+    h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+    h2 {
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 1em;
+    }
+    p {
+      clear: both;
+      line-height: 2em;
+    }
+    li, ul { margin: 0; padding: 0; }
+    ul {
+      margin-top: 1em;
+    }
+    li {
+      width: 100%;
+      list-style-type: none;
+      text-align: center;
+      background: #;
+      border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+    li:first-child {
+      border-top: 1px solid rgba(255,255,255,.2);
+    }
+    li a {
+      padding: 2em 0;
+      text-decoration: none;
+      color: white;
+      display: block;
+    }
+    li a:hover {
+      background: rgba(255,255,255,.2);
+    }
+    li img {
+      max-width: 100%;
+      margin-bottom: 1em;
+    }
+    .spacer {
+      height: 1em;
+    }
+    h3:after {
+      content: ':';
+    }
+    .contact {
+      display: block;
+      padding: 1em;
+      color: white;
+    }
+    .contact:hover {
+      background: rgba(255,255,255,.2);
+    }
+  </style>
+
+  <script src="https://use.typekit.net/kfb4zdw.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+</head>
+<body>
+  <div class="container">
+    <div class="center">
+      <h1>cjcodes</h1>
+    </div>
+    <p>aka. chris johnson</p>
+    <p>brooklyn web software engineer. <br />freelance maker of digital things.</p>
+    <a class="contact" href="mailto:chris@cjcodes.com">chris@cjcodes.com</a>
+    <div class="spacer"></div>
+    <ul>
+      <li><a href="https://twiliq.com">
+        <h3>Creator of</h3>
+        <h2>twiliQ</h2>
+      </a></li>
+      <li><a href="http://crisistextline.org">
+        <h3>Founding CTO at</h3>
+        <h2>Crisis Text Line</h2>
+      </a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
+
